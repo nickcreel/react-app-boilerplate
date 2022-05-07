@@ -5,13 +5,11 @@ Setup a basic React app skeleton. Built with [Webpack](https://webpack.js.org/) 
 I wanted to create my own React app boilerplate without using `create-react-app`. I think it gives me a better understanding of how the different pieces work together to form the whole app.
 
 # Get started
-1. Fork this repo and clone the fork to your local machine.
-2. Create a new upstream repo to upload your code changes into.
-3. In the cloned repo, change the origin to your newly created upstream repo using `git remote set-url origin <your new repo URL>`
-4. Push to the new repo.
-5. Run `yarn install`
-6. To build the default template, run `yarn run create`. This triggers a webpack build.
-7. To run a development server, run `yarn start`. You should now be able to view the basic hello world app in your browser at `localhost:8080`.
+1. Select "use this template" in the options on GitHub to create new repo using this boilerplate.
+2. Clone to local machine.
+3. Run `yarn install`.
+4. To build the default template, run `yarn run create`. This triggers a webpack build.
+5. To run a development server, run `yarn start`. You should now be able to view the basic hello world app in your browser at `localhost:8080`.
 
 # Styles
 There is a small set of base styles in `src/index.css`. These styles set box sizing to border box, and reset padding/margin to 0 on all elements. They also set height to 100% for html, body, and the React root element.
