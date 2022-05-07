@@ -7,7 +7,7 @@ I wanted to create my own React app boilerplate without using `create-react-app`
 # Get started
 1. Clone this repo!
 2. In the cloned directory, run `yarn install`
-3. To build the default template, run `yarn run 🚡create`. This triggers a webpack build.
+3. To build the default template, run `yarn run create`. This triggers a webpack build.
 4. To run a development server, run `yarn start`. You should now be able to view the basic hello world app in your browser at `localhost:8080`.
 
 # Styles
