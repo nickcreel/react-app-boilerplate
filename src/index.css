@@ -1,0 +1,20 @@
+/* 
+these styles apply base styles to index.html
+but all components will be styled using styled-components
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+main {
+    height: 100%;
+}

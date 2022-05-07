@@ -1,13 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-
-export default function App() {
-  return <div>Hello, world!</div>;
+// must pass class name and attach to html
+// for styled component styles to apply
+// see https://styled-components.com/docs/basics#styling-any-component
+function App({ className, children }) {
+  return <div className={className}>Hello, world!</div>;
 }
 
-const StyledApp = styled(App)`
-  box-sizing: border-box;
-  margin: 0 auto;
-  width: 75%;
+export const StyledApp = styled(App)`
+  text-align: center;
   padding: 10px;
+  background: #dad2d8;
+  min-height: 100%;
 `;
